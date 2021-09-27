@@ -6,6 +6,8 @@ export PROJECTS=~/workspaces
 
 export ZSH="/home/himself/.oh-my-zsh"
 ZSH_THEME="agnoster"
+DEFAULT_USER=himself
+source $ZSH/oh-my-zsh.sh
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
